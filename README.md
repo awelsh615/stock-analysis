@@ -23,8 +23,13 @@ After code is written, the refactoring step is important for making code cleaner
 
 One disadvantage of refactoring code is the time and (wo)manpower it takes to edit the code.  When code is rewritten to make it more efficient, some functionalities may need to be rewritten which can be time-consuming and frustrating.  Personally, I had a lot of trouble with adding the three arrays in this particular Stock Analysis code.  Logically, the nested for loops made more sense to me, but I can see how the use of arrays simplifies the code and makes it run faster.
 
-### Results
-My original code was successful in outputting the required data, but didn't use the most efficient coding for the objective.  After refactoring, my code was almost 1/2 second quicker, and also much easier to read and follow.  I reset my button to call the refactored macro and run the more efficient code.  My refactored code is below.
+### My Results
+My original code was successful in outputting the required data, but didn't use the most efficient coding for the objective.  After refactoring, my code was almost 1/2 second quicker, and also much easier to read and follow.  I reset my button to call the refactored macro and run the more efficient code.  
+
+As I mentioned above, I moved pretty quickly through the original code, but the arrays gave me trouble in the refactored code.  I got several different errors trying to run my code, and got pretty frustrated.  I appreciated having access to the module lessons and once I went back and re-read the section on arrays (along with some googling) I managed to figure out what I was missing.  
+
+
+My refactored code is below.
 
 'Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
