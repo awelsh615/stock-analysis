@@ -8,7 +8,7 @@ The initial dataset contained over 3000 rows of data including stock ticker info
 ## Conclusion
 ### Refactoring Green Stocks
 After refactoring my code, my run time improved by roughly one-half of a second.  While that may not seem like a lot of time, if our dataset was bigger and included more years or more stock information, an efficient code could save a lot of time.  My refactored code took approximately --- seconds to run, as seen below.
-
+![2017](Resources/VBA_Challenge_2017.PNG)
 
 My 2018 run took approximately ----- seconds as seen below.
 
