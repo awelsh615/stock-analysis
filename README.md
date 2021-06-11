@@ -13,6 +13,7 @@ After refactoring my code, my run time improved by roughly one-half of a second.
 My 2018 run took approximately 0.109 seconds as seen below.
 ![2018](Resources/VBA_Challenge_2018.PNG)
 
+
 ### Advantages & Disadvantages of Refactoring Code
 
 
