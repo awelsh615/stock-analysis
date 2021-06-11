@@ -5,8 +5,19 @@ An analysis of stock data from 2017 and 2018 to uncover Daily Volume and Returns
 The purpose of this project was to analyze data from twelve different green energy companies to discover which, if any, of the stocks are financially viable and worthy of investment.  
 ### VBA
 The initial dataset contained over 3000 rows of data including stock ticker information, prices and total volume of stock traded.  I used Excel VBA to write code that pulls both the total daily volume, and percentage return for each stock.  I also created a button to make it easy for the user to choose a year and pull the data without having to open the developer tools of Excel himself.
-### Conclusion
-## Results
+## Conclusion
+### Refactoring Green Stocks
+After refactoring my code, my run time improved by roughly one-half of a second.  While that may not seem like a lot of time, if our dataset was bigger and included more years or more stock information, an efficient code could save a lot of time.  My refactored code took approximately --- seconds to run, as seen below.
+
+
+My 2018 run took approximately ----- seconds as seen below.
+
+
+
+### Advantages & Disadvantages of Refactoring Code
+
+
+### Results
 My original code was successful in outputting the required data, but didn't use the most efficient coding for the objective.  After refactoring, my code was almost 1/2 second quicker, and also much easier to read and follow.  I reset my button to call the refactored macro and run the more efficient code.  My refactored code is below.
 
 'Sub AllStocksAnalysisRefactored()
@@ -138,18 +149,9 @@ My original code was successful in outputting the required data, but didn't use 
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub
-
-## Summary
-### Refactoring Green Stocks
-After refactoring my code, my run time improved by roughly one-half of a second.  While that may not seem like a lot of time, if our dataset was bigger and included more years or more stock information, an efficient code could save a lot of time.  My refactored code took approximately --- seconds to run, as seen below.
-
-
-My 2018 run took approximately ----- seconds as seen below.
 
 
 
-### Advantages & Disadvantages of Refactoring Code
 
 
 
