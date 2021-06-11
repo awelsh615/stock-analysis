@@ -3,11 +3,14 @@
 An analysis of stock data from 2017 and 2018 to uncover Daily Volume and Returns for 12 specific stocks.
 ### Purpose
 The purpose of this project was to analyze data from twelve different green energy companies to discover which, if any, of the stocks are financially viable and worthy of investment.  
-### VBA
+### VBA Analysis
 The initial dataset contained over 3000 rows of data including stock ticker information, prices and total volume of stock traded.  I used Excel VBA to write code that pulls both the total daily volume, and percentage return for each stock.  I also created a button to make it easy for the user to choose a year and pull the data without having to open the developer tools of Excel himself.
+
+
 ## Conclusion
 ### Refactoring Green Stocks
 After refactoring my code, my run time improved by roughly one-half of a second.  While that may not seem like a lot of time, if our dataset was bigger and included more years or more stock information, an efficient code could save a lot of time.  My refactored code took approximately 0.098 seconds to run, as seen below.
+
 ![2017](Resources/VBA_Challenge_2017.PNG)
 
 My 2018 run took approximately 0.109 seconds as seen below.
@@ -16,7 +19,9 @@ My 2018 run took approximately 0.109 seconds as seen below.
 
 
 ### Advantages & Disadvantages of Refactoring Code
+After code is written, the refactoring step is important for making code cleaner, more concise and more efficient.  It's also a convenient time to add comments and explanations to the code for the author to refer to later or for another reader later in the code's revision. The obvious advantage to code refactoring is **better code**.  Some code may need refactoring to make it easier to read for multiple users.  Sometimes the purpose of refactoring code may be to make it run faster, or with less computing power.
 
+One disadvantage of refactoring code is the time and (wo)manpower it takes to edit the code.  When code is rewritten to make it more efficient, some functionalities may need to be rewritten which can be time-consuming and frustrating.  Personally, I had a lot of trouble with adding the three arrays in this particular Stock Analysis code.  Logically, the nested for loops made more sense to me, but I can see how the use of arrays simplifies the code and makes it run faster.
 
 ### Results
 My original code was successful in outputting the required data, but didn't use the most efficient coding for the objective.  After refactoring, my code was almost 1/2 second quicker, and also much easier to read and follow.  I reset my button to call the refactored macro and run the more efficient code.  My refactored code is below.
